@@ -27,11 +27,7 @@ Around 400 Mb.
 
 ### Command line
 
-:computer: `docker pull marchandd/term_ssh_root_mono > build.log`
-
-### Command line explanation
-
-Search password value into build.log file to access later to container.
+:computer: `docker pull marchandd/term_ssh_root_mono`
 
 ### Firewall
 
@@ -59,6 +55,7 @@ Where YYYYY is your Private port, if you doesn't know free port, try from 49200.
 ### SSH access
 
 Open terminal with root/administrator account.
+Basic fixed password for Docker public repository = 'term_ssh_root_mono'
 
 :computer: `ssh -X root@XXX.XXX.XXX.XXX -p YYYYY`
 
