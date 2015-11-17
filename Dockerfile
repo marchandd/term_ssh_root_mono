@@ -1,4 +1,4 @@
-FROM mono
+FROM mono:latest
 MAINTAINER Marchand D. https://github.com/marchandd/term_ssh_root_mono
 ENV VE_version="MarchandD_20151117_v01.02"
 RUN apt-get update && apt-get install -y openssh-server supervisor pwgen
